@@ -1,0 +1,41 @@
+H1{
+    text-align: center;
+}
+
+body{
+    background: aqua;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+}
+
+#calculator{
+    border: 1px solid rgb(187,183,183);
+    border-radius: 5px;
+    width: 200px;
+    padding: 20px;
+    background: rgb(171, 158, 158);
+
+}
+
+#display{
+    margin: 10px;
+    width: 85%;
+    font-size: 35px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button{
+    height: 30px;
+    width: 45px;
+    background-color: gray;
+    margin: 5px;
+}
